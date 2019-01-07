@@ -1,0 +1,7 @@
+institutebot:
+  handler: courseEnquiry.lambda_handler
+  versionFunction: false
+  name: courseEnquiry
+  package:
+    include:
+      - courseEnquiry.py
